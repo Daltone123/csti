@@ -1,0 +1,385 @@
+
+    body,html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+  
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #f8e007;
+    }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+
+
+  #hhgghkkkkkk
+
+  #upcoming-event {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  h3, h2 {
+    color: #3498db;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .event-button-container {
+    margin-top: 20px;
+  }
+  
+  .event-button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-button:hover {
+    background-color: #f8e007;
+  }
+
+
+
+
+
+
+  #UPDATE
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Heading styling */
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading h1 {
+  color: #3498db;
+  font-size: 2em;
+}
+
+.heading p {
+  color: #555;
+}
+
+/* Card styling */
+.card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-header {
+  background-color: #3498db;
+  padding: 15px;
+  color: #fff;
+}
+
+.card-header img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content p {
+  color: #555;
+}
+
+.card-action {
+  margin-top: 15px;
+}
+
+.card-action a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card-action a:hover {
+  background-color: #2980b9;
+}
+
+.card-reveal {
+  background-color: #fff;
+  padding: 15px;
+  position: relative;
+}
+
+.card-reveal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #3498db;
+  font-size: 1.2em;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .card-column {
+    margin-bottom: 30px;
+  }
+}
+
+/* Add this CSS to align services horizontally */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-column {
+  width: 100%; /* Take full width on smaller screens */
+}
+
+/* Responsive layout adjustments */
+@media (min-width: 768px) {
+  .card-column {
+    width: calc(33.33% - 20px); /* Adjust based on the number of columns you want */
+    margin-bottom: 0;
+  }
+}
+
+.card-reveal {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.card-reveal.revealed {
+  opacity: 1;
+  visibility: visible;
+  max-height: 1000px; /* Adjust to a sufficiently large value to accommodate content */
+}
+
+
+
+#CARD
+
+.card {
+  background: #fff;
+  border: 1px solid #f0eff0;
+  box-shadow: 0 2px 5px 0 #bfbabf, 0 2px 10px 0 #bfbabf;
+  flex-grow: 1;
+  margin-top: 30px;
+  position: relative
+}
+
+.card-header {
+  padding: 20px
+}
+
+.card-header.mod-articles {
+  padding: 20px 0 0
+}
+
+.card-header-title {
+  color: #258039;
+  font-weight: 700;
+  font-size: 24px
+}
+
+.card-header-icon {
+  color: #57bc90;
+  font-size: 120px
+}
+
+.card-header-title.mod-partner-services {
+  color: #262f34;
+  font-size: 23px
+}
+
+.card-header-title.mod-cta {
+  font-size: 26px
+}
+
+.card-content {
+  min-height: 100px;
+  padding: 0 20px 20px
+}
+
+.card-content p {
+  color: #262f34;
+  text-align: left
+}
+
+.card-content.mod-articles {
+  padding-bottom: 20px;
+  min-height: 0
+}
+
+.disclaimer {
+  color: #c0c0c0
+}
+
+.disclaimer a {
+  color: #80c0cc
+}
+
+.card-action a {
+  color: #258039;
+  float: right;
+  font-size: 15px;
+  margin-right: 20px;
+  text-transform: uppercase
+}
+
+.card-action a:hover {
+  color: #30a84b;
+  text-decoration: none
+}
+
+.card-reveal {
+  background-color: #fff;
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 1
+}
+
+.card-reveal p {
+  color: #262f34;
+  margin: 20px;
+  text-align: left
+}
+
+
+#UPDATE2
+.card-reveal {
+  display: none;
+}
+
+.card-reveal.revealed {
+  display: block;
+  animation: revealAnimation 0.3s ease-in-out;
+}
+
+@keyframes revealAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+#DRIVE
+
+/* Add this style to your existing CSS file or style section */
+.hackathon-link {
+  color: #0000ff;  /* Set the desired color for the link */
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s; /* Add a smooth transition effect for color change */
+}
+
+.hackathon-link:hover {
+  color: #004080;
+  background-color: #f0f0f0; /* Choose your desired background color */
+}
